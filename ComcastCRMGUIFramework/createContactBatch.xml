@@ -1,0 +1,10 @@
+
+<suite name="Suite">
+
+  <test  name="TestRunner-Chrome">
+  <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="com.comcast.crm.contacttest.CreateContactTest2POM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-14T11:03:57 IST" name="Default suite" finished-at="2026-01-14T11:09:05 IST" duration-ms="308443">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateOrganizationTest2UsingPOM.CreateOrganizationTest2UsingPOMTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" name="CreateOrganizationTest2UsingPOMTest" class="com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2026-01-14T11:03:57 IST" name="Default test" finished-at="2026-01-14T11:09:05 IST" duration-ms="308443">
+      <class name="com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" started-at="2026-01-14T11:03:27 IST" name="configBS" finished-at="2026-01-14T11:03:57 IST" duration-ms="29964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" started-at="2026-01-14T11:03:57 IST" name="configBC" finished-at="2026-01-14T11:04:44 IST" duration-ms="47268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" started-at="2026-01-14T11:04:44 IST" name="configBM" finished-at="2026-01-14T11:05:19 IST" duration-ms="35004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrganizationTest2UsingPOMTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" started-at="2026-01-14T11:05:19 IST" name="CreateOrganizationTest2UsingPOMTest" finished-at="2026-01-14T11:08:53 IST" duration-ms="213970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationTest2UsingPOMTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" started-at="2026-01-14T11:08:53 IST" name="configAM" finished-at="2026-01-14T11:09:05 IST" duration-ms="11584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" started-at="2026-01-14T11:09:05 IST" name="configAC" finished-at="2026-01-14T11:09:05 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM@4e08711f]" started-at="2026-01-14T11:09:05 IST" name="configAS" finished-at="2026-01-14T11:09:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

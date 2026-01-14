@@ -1,0 +1,18 @@
+
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test  name="TestRunner-Chrome">
+  <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="com.comcast.crm.contacttest.CreateContactTest2POM"/>
+      <class name="com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="TestRunner-Firefox">
+    <parameter name="BROWSER" value="Firefox"/>
+    <classes>
+      <class name="com.comcast.crm.contacttest.CreateContactTest2POM"/>
+      <class name="com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+<listeners>
+<listener class-name="com.comcast.crm.listenerUtility.ListenerImplementationClass"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.orgtest.CreateOrganizationTest2UsingPOM">
+      <methods>
+      <include name="CreateOrganizationTest2UsingPOMTest"/>
+        </methods>
+        </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
